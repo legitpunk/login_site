@@ -1,0 +1,551 @@
+html{
+	
+}
+body{
+	font-family: 'Roboto', open sans condensed;
+	/*font-family:sans serif;*/
+	padding:0;
+	margin:0;
+	background-image:url(Images/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+}
+#PageWrapper{
+	margin: 5%;
+    width: calc(100% - 10%);
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+#FormIputText::placeholder {
+  font-style: italic;
+  font-size: 1rem;
+  color:#aaa;
+}
+.TextAlignRight{
+	text-align:right;
+}
+.TextAlignLeft{
+	text-align:left;
+}
+.TopBottomWrapper20{
+	padding:20 0 20 0;
+}
+p {
+    display: inline-block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	vertical-align: middle;
+	color:#eee;
+	font-weight: 300;
+	line-height:44px;
+}
+table{
+	width:100%;
+	font-size:1.2rem;
+	text-align: center;
+}
+table tr{
+	vertical-align: bottom;
+}
+center{
+	
+}
+form{
+	margin: 0;
+    margin-block-end: 0;
+}
+button{
+	padding: 0;
+    background: none;
+    border: none;
+    color:deepskyblue;
+    font-size: 1.2rem;
+	cursor:pointer;
+	vertical-align: middle;
+	text-align:left;
+    padding: 2 6 2 6;
+	position:relative;
+	border-radius:5px;
+	font-family: 'Roboto', open sans condensed;
+	font-weight: 300;
+	line-height:44px;
+	padding: 10px 20px 10px 20px;
+}
+#TitleBar{
+	width:calc(100% - 40px);
+	text-align: left;
+	border-bottom: 1px solid #CCC;
+	padding: 20px;
+}
+#Img24{
+	width:24px;
+	height:24px;
+	vertical-align:middle;
+	display:inline-block;
+}
+#Text_H1{
+	font-size: 1.4rem;
+    vertical-align: middle;
+	line-height: 44px;
+    display: inline-block;
+}
+#Contents{
+	padding:20;
+}
+#LoginBox, #wBox, #RegisterBox{
+	width:60%;
+	font-size:1.2rem;
+	border: 1px solid #DDD;
+	background:rgba(0,0,0,0.5);
+	display: inline-block;
+    box-shadow: 0px 0px 20px #ddd;
+    border-radius: 2px;
+}
+#LoginBox{
+	width:500;
+}
+#FormIputText{
+    width: 100%;
+    height: 26;
+    border: 1px solid #CCC;
+    background: cornsilk;
+    height: 44px;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    font-weight: 300;
+    font-family: 'Roboto';
+}
+.Checkbox_RememberMe{
+	margin-right:25;
+	line-height: 44px;
+	font-weight: 300;
+	color: #bbb;
+}
+#DisplayIB{
+	display:inline-block;
+	padding: 0;
+    background: none;
+    color: blue;
+    font-size: 1.2rem;
+    font-family: pt sans narrow;
+    vertical-align: middle;
+    text-align: left;
+    width: 100%;
+}
+#InputText{
+    font-family: pt sans narrow;
+    color: #8627B7;
+    /*color: #63B626;*/
+    font-size: 1.2rem;
+    vertical-align: middle;
+    padding: 5 4 6 4;
+    margin-left: 4;
+	border: none;
+	outline: -webkit-focus-ring-color auto 0px;
+}
+#InputText:hover{
+	/*cursor:pointer;*/
+}
+#ComingSoon, #text1{
+
+	font-size:1.2rem;
+	display:inline-block;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+	vertical-align: middle;
+	padding:1 6 4 6;
+}
+#ComingSoon{
+	color:#FFA201;	
+}
+
+#TitleButtonText{
+	padding: 2 6 1 6;
+	width: auto;
+    background: none;
+    border: 1px solid transparent;
+    color: #49A7FF;
+    font-size: 1.2rem;
+    font-family: pt sans narrow;
+}
+#TitleButtonText:hover{
+	background: #C1F7FF;
+}
+#ButtonText{
+	padding: 2 6 1 6;
+	width: auto;
+    background: none;
+    border: 1px solid transparent;
+    color: #49A7FF;
+    font-size: 1.2rem;
+    font-family: pt sans narrow;
+}
+#ButtonTitleText{
+	padding: 2 6 3 6;
+	background: #E3FFFF;
+    color: #49A7FF;
+	position: relative;
+}
+#ButtonTitleText:hover{
+	background: #C1F7FF;
+}
+#ButtonMenu:hover, #Button:hover, #ButtonText:hover{
+	background:#E3FFFF;
+	cursor:pointer;
+	padding: 10px 20px 10px 20px;
+}
+#ButtonImage{
+	width:28;
+	height:28;
+	border:1px solid transparent;
+	border-radius:50%;
+	vertical-align: middle;
+	margin: 0;
+}
+#ButtonMenu{
+	padding: 4;
+    background: none;
+    border: 1px solid transparent;
+    color: blue;
+    font-size: 1.2rem;
+    font-family: pt sans narrow;
+	cursor:pointer;
+	vertical-align: middle;
+	text-align:left;
+	width: 100%;
+}
+#ChatBoxInput{
+	width: 100%;
+    height: 30px;
+    border: 1px solid #49A7FF;
+    border-left: 0;
+    border-right: 0;
+	font-size: 1rem;
+}
+#ChatBoxInner{
+	min-height: 400;
+	padding: 4;
+}
+#ChatText{
+    padding: 2 6 1 6;
+    vertical-align: middle;
+	font-size: 1.2rem;
+}
+#Grid{
+	display: inline-block;
+	width: 100%;
+}
+#List{
+	/*width: 100%;
+    justify-content: space-between;
+    text-align: center;*/
+}
+#Spacer40{
+	height:40;
+	width:100%;
+}
+#Image50_Text{
+	font-size: 1.2rem;
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    background: rgba(0,0,0,0.8);
+    padding: 0 10 0 10;
+    border-radius: 10px;
+    border: 1px inset #CCC;
+    margin: 10;
+}
+#Image50, #Div50{
+	width: 50%;
+    height: 200;
+    background-size: cover;
+    /* display: block; */
+    position: relative;
+    /* text-align: center; */
+}
+#Image60Round{
+	width: 100;
+    height: 100;
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+#Div50{
+	margin-left: 10;
+	vertical-align: top;
+}
+#Container{
+	display: inline-flex;
+    width: 100%;
+}
+#ContainerImage{
+	width: 250;
+    height: 250;
+	display:inline-block;
+    vertical-align: middle;
+}
+#ContainerText{
+	display: grid;
+    vertical-align: top;
+	margin-left:10;
+	width: 100%;
+}
+#ContainerInsets{
+	display:inline-block;
+	width: 100%;
+}
+#ListItem{
+}
+#ListItem2x1Image{
+	width:100%;
+	height:300;
+}
+#ListItem2x1{
+	width:50%;
+	padding: 0;
+}
+#Core_Modal{
+	height: calc(100% - 200px);
+    width: calc(100% - 200px);
+    text-align: center;
+    position: fixed;
+    margin: 100;
+}
+#Core_ModalInner{
+	height: calc(100% - 40px);
+    background: dodgerblue;
+    padding: 20;
+	text-align:left;
+	color: #FFF;
+	overflow: scroll;
+}
+#Core_ModalInner_Close{
+	position:absolute;
+	bottom:0;
+	right:0;
+	background:#FFF;
+	padding:10;
+}
+#Core_ModalInner_Transparent{
+	position:absolute;
+	bottom:0;
+	right:55;
+	background:#FFF;
+	padding:10;
+}
+#DisplayNone_TopBar{
+	display:none;
+}
+#DivVars{
+	display:none;
+}
+#Pinboard1, #Pinboard3{
+	width:33%;
+	display: inline-flex;
+	vertical-align: top;
+}
+#Pinboard1{
+}
+#Pinboard11{
+    width: 50%;
+    display: inline-block;
+}
+#Pinboard12{
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+	border-left: 1px solid #DDD;
+	height: -webkit-fill-available;
+}
+#Pinboard2{
+	width:33%;
+	display:inline-block;
+	border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+	height: -webkit-fill-available;
+}
+#Pinboard31{
+	width: 50%;
+    display: inline-block;
+}
+#Pinboard32{
+	width: 50%;
+    display: inline-block;
+	border-left: 1px solid #DDD;
+}
+#Page{
+	width:100%;
+	display:inline-block;
+}
+#PageInner{
+	padding: 0;
+}
+#PageInnerP{
+	padding: 4;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: inline-block;
+    font-size: 1.2rem;
+    vertical-align: middle;
+}
+#PageTitle{
+	width:calc(100% - 8px);
+	border: 1px solid transparent;
+	border-bottom: 1px solid #ddd;
+	padding: 4;
+}
+#PageTitleImage{
+	width: 28;
+    height: 28;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    border: 1px solid transparent;
+	padding:0;
+}
+#PageTitleText{
+	font-size: 1.2rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+.show
+{
+    opacity: 1;
+}
+
+.hide
+{
+    opacity: 0.1;
+}
+#Logout{
+	right: 0;
+	top: 0;
+	position: absolute;
+	width: 30;
+	background: #efefef;
+	height: 30;
+	border: 1px solid #ddd;
+}
+
+
+@keyframes hover-color {
+  from {
+    border-color: #c0c0c0; }
+  to {
+    border-color: #3e97eb; } }
+
+.radio,
+.Checkbox {
+  position: absolute;
+  display: none; }
+
+.radio[disabled],
+.Checkbox[disabled] {
+  cursor: not-allowed; }
+
+.radio + label,
+.Checkbox + label {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  cursor: pointer;
+  vertical-align: middle; }
+  .radio + label:hover:before,
+  .Checkbox + label:hover:before {
+    animation-duration: 0.4s;
+    animation-fill-mode: both;
+    animation-name: hover-color; }
+  .radio + label:before,
+  .Checkbox + label:before {
+    position: absolute;
+    top: 3;
+    right: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: '';
+    border: 1px solid #CCC;
+	vertical-align:middle;	}
+  .radio + label:after,
+  .Checkbox + label:after {
+    position: absolute;
+    display: none;
+    content: ''; }
+
+.radio[disabled] + label,
+.Checkbox[disabled] + label {
+  cursor: not-allowed;
+  color: #e4e4e4; }
+  .radio[disabled] + label:hover, .radio[disabled] + label:before, .radio[disabled] + label:after,
+  .Checkbox[disabled] + label:hover,
+  .Checkbox[disabled] + label:before,
+  .Checkbox[disabled] + label:after {
+    cursor: not-allowed; }
+  .radio[disabled] + label:hover:before,
+  .Checkbox[disabled] + label:hover:before {
+    border: 1px solid #e4e4e4;
+    animation-name: none; }
+  .radio[disabled] + label:before,
+  .Checkbox[disabled] + label:before {
+    border-color: #e4e4e4; }
+
+.radio:checked + label:before,
+.Checkbox:checked + label:before {
+  animation-name: none; }
+
+.radio:checked + label:after,
+.Checkbox:checked + label:after {
+  display: block; }
+
+.radio + label:before {
+  border-radius: 50%; }
+
+.radio + label:after {
+  top: 6px;
+  right: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #3e97eb; }
+
+.radio:checked + label:before {
+  border: 1px solid #3e97eb; }
+
+.radio:checked[disabled] + label:before {
+  border: 1px solid #c9e2f9; }
+
+.radio:checked[disabled] + label:after {
+  background: #c9e2f9; }
+
+.Checkbox + label:before {
+  border-radius: 3px; }
+
+.Checkbox + label:after {
+  top: 5px;
+  right: 7px;
+  box-sizing: border-box;
+  width: 6px;
+  height: 12px;
+  transform: rotate(45deg);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+  border-top: 0;
+  border-left: 0; }
+
+.Checkbox:checked + label:before {
+  border: #DDD;
+  background: #0191FF; 
+  margin-top: 10px;
+}
+
+.Checkbox:checked[disabled] + label:before {
+  border: #DDD;
+  background: #0191FF; }
+  
+  .radio:checked + label:after, .Checkbox:checked + label:after{
+	      margin-top: 10px;
+  }

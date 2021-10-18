@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 5.0.2
+- https://www.phpmyadmin.net
+-
+- Host: 127.0.0.1:3307
+- Generation Time: Oct 18, 2021 at 05:18 AM
+- Server version: 10.5.4-MariaDB
+- PHP Version: 7.3.21
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="database_legitpunk_login_test_1" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="user">
+                CREATE TABLE `user` (
+                  `rowid` int(11) NOT NULL AUTO_INCREMENT,
+                  `name` varchar(255) NOT NULL,
+                  `username` varchar(255) NOT NULL,
+                  `password` varchar(255) NOT NULL,
+                  `email` text DEFAULT NULL,
+                  `filename` text DEFAULT NULL,
+                  `salt` varchar(255) NOT NULL,
+                  `grouptype` text NOT NULL,
+                  `joined` timestamp NOT NULL DEFAULT current_timestamp(),
+                  `image` varchar(255) NOT NULL DEFAULT 'Star.png',
+                  `theme_uid` varchar(255) NOT NULL DEFAULT 'Default',
+                  `a` int(1) NOT NULL DEFAULT 1,
+                  `settings` text DEFAULT NULL,
+                  `uid` varchar(64) NOT NULL,
+                  `uidkey` text NOT NULL,
+                  `permissions` text NOT NULL,
+                  `ipaddress` text DEFAULT NULL,
+                  PRIMARY KEY (`rowid`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=54 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="usersession">
+                CREATE TABLE `usersession` (
+                  `rowid` int(11) NOT NULL AUTO_INCREMENT,
+                  `userid` int(255) NOT NULL,
+                  `hash` varchar(255) NOT NULL,
+                  `a` int(1) NOT NULL DEFAULT 1,
+                  PRIMARY KEY (`rowid`)
+                ) ENGINE=MyISAM AUTO_INCREMENT=1615 DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'database_legitpunk_login_test_1'
+    -->
+    <database name="database_legitpunk_login_test_1">
+        <!-- Table user -->
+        <table name="user">
+            <column name="rowid">53</column>
+            <column name="name">joey2</column>
+            <column name="username">joey2</column>
+            <column name="password">0592599316faa4224a301503a52c972baec936da2a44627c722c54762ec635a6</column>
+            <column name="email">asd@asd.asd</column>
+            <column name="filename">Default_Profile_Picture.png</column>
+            <column name="salt">$2y$10$ASH32tHFUajThJjxUYLhjOBtKSQOHYM5EFol60.fmNbs6rjeDQ0u6</column>
+            <column name="grouptype">1</column>
+            <column name="joined">2021-10-18 04:34:30</column>
+            <column name="image">Star.png</column>
+            <column name="theme_uid">bebfbdbe9f5d3b90e1dd56702398a3a4</column>
+            <column name="a">1</column>
+            <column name="settings">NULL</column>
+            <column name="uid">asd123uid</column>
+            <column name="uidkey">asd123uikey</column>
+            <column name="permissions">2</column>
+            <column name="ipaddress">ipaddress</column>
+        </table>
+        <table name="user">
+            <column name="rowid">46</column>
+            <column name="name">joe</column>
+            <column name="username">joey</column>
+            <column name="password">85973edccb779d3b9d142ff6cef93c07623dbe0c1400bba3e853bd3b2103e98b</column>
+            <column name="email">asd@asd.asd</column>
+            <column name="filename">Default_Profile_Picture.png</column>
+            <column name="salt">$2y$10$AH1h2Li5WUsMK2TpBDlGEeuKDkbtKxwMn4kpEiMKflZ613sZc7ERO</column>
+            <column name="grouptype">1</column>
+            <column name="joined">2021-10-06 05:29:03</column>
+            <column name="image">Star.png</column>
+            <column name="theme_uid">bebfbdbe9f5d3b90e1dd56702398a3a4</column>
+            <column name="a">1</column>
+            <column name="settings">NULL</column>
+            <column name="uid">asd123uid</column>
+            <column name="uidkey">asd123uikey</column>
+            <column name="permissions">2</column>
+            <column name="ipaddress">ipaddress</column>
+        </table>
+        <!-- Table usersession -->
+        <table name="usersession">
+            <column name="rowid">1551</column>
+            <column name="userid">15</column>
+            <column name="hash">ac17fb783eaa317f01b56c96454a434c0d3b4ef30c017f9565e2486af2a63182</column>
+            <column name="a">1</column>
+        </table>
+    </database>
+</pma_xml_export>
